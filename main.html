@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Socials</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <style>
+        html,body{
+           
+            font-family: "Montserrat";
+            font-size: 14px;
+            min-height: 160px;
+            width: 360px;
+
+        }
+        h1{
+            color:blueviolet;
+            align-content: center;
+        }
+        p{
+            color: darkgrey;
+            font-size: 1em;
+        }
+        .logo img{
+            max-height: 1.2em;
+        }
+        .flex-container{
+            font-size: 2.5em;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flex{
+            padding-right: .5em;
+            transition: all .2s ease-in-out;
+        }
+        .flex:hover{
+            opacity: .5;
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <h1 class="logo">
+            <img src="images/my_icon.png" alt=""> My Socials <span class="version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="description">
+        <p>Open Your favourite websites with one click</p>
+    </div>
+    <div class="all-websites">
+        <div class="flex-container">
+            <div class="flex">
+                <a target = "_blank" href="https://www.linkedin.com/in/ashish--mishra"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="flex">
+                <a target = "_blank" href="https://github.com/Ashking009/"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div class="flex">
+                <a target = "_blank" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
+            </div>
+            <div class="flex">
+                <a target = "_blank" href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></i></a>
+            </div>
+            <div class="flex">
+                <a target = "_blank" href="https://www.google.com"><i class="fab fa-google"></i></i></a>
+            </div>
+            <div class="flex">
+                <a target = "_blank" href="https://www.instagram.com/aminumb009/"><i class="fab fa-instagram-square"></i></a>
+            </div>
+            <div class="flex">
+                <a target = "_blank" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
